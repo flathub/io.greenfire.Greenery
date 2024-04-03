@@ -14,6 +14,8 @@
         "--share=ipc",
         "--share=network",
         "--socket=x11",
+        "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--device=dri"
     ],
@@ -40,8 +42,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.7/Greenery-linux-x64-0.9.7.zip",
-                    "sha256": "b230efd545589effebdade8f20162801b71733f2f267c1f9a2ad7e285bc042fd", 
+                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.8/Greenery-linux-x64-0.9.8.zip",
+                    "sha256": "1e36d2d4697a99e384720fcea2f6116afef13fa3e199445638dd4a9080457236", 
                     "dest": "main",
                     "dest-filename": "greenery.zip",
                     "x-checker-data": {
