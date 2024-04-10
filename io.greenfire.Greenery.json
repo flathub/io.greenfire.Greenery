@@ -13,7 +13,6 @@
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        "--socket=x11",
         "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
@@ -36,8 +35,16 @@
                     "type": "script", 
                     "dest-filename": "greenery",
                     "commands": [
-                        "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-                        "exec zypak-wrapper /app/main/greenery \"$@\""
+                        "FLAGS=''",
+                        "if [[ $XDG_SESSION_TYPE == \"wayland\" && -e \"$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY\" ]]",
+                        "then",
+                        "    FLAGS=\"$FLAGS --enable-wayland-ime --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations\"",
+                        "    if  [ -c /dev/nvidia0 ]",
+                        "    then",
+                        "        FLAGS=\"$FLAGS --disable-gpu-sandbox\"",
+                        "    fi",
+                        "fi",
+                        "env TMPDIR=\"$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-io.greenfire.Greenery}\" zypak-wrapper /app/main/greenery $FLAGS \"$@\""
                     ]
                 },
                 {
