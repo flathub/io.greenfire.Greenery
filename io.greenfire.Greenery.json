@@ -13,7 +13,8 @@
     "finish-args": [
         "--share=ipc",
         "--share=network",
-        "--socket=x11",
+        "--socket=wayland",
+        "--socket=fallback-x11",
         "--socket=pulseaudio",
         "--device=dri"
     ],
@@ -34,14 +35,22 @@
                     "type": "script", 
                     "dest-filename": "greenery",
                     "commands": [
-                        "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-                        "exec zypak-wrapper /app/main/greenery \"$@\""
+                        "FLAGS=''",
+                        "if [[ $XDG_SESSION_TYPE == \"wayland\" && -e \"$XDG_RUNTIME_DIR/$WAYLAND_DISPLAY\" ]]",
+                        "then",
+                        "    FLAGS=\"$FLAGS --enable-wayland-ime --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations\"",
+                        "    if  [ -c /dev/nvidia0 ]",
+                        "    then",
+                        "        FLAGS=\"$FLAGS --disable-gpu-sandbox\"",
+                        "    fi",
+                        "fi",
+                        "env TMPDIR=\"$XDG_RUNTIME_DIR/app/${FLATPAK_ID:-io.greenfire.Greenery}\" zypak-wrapper /app/main/greenery $FLAGS \"$@\""
                     ]
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.7/Greenery-linux-x64-0.9.7.zip",
-                    "sha256": "b230efd545589effebdade8f20162801b71733f2f267c1f9a2ad7e285bc042fd", 
+                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.8/Greenery-linux-x64-0.9.8.zip",
+                    "sha256": "1e36d2d4697a99e384720fcea2f6116afef13fa3e199445638dd4a9080457236", 
                     "dest": "main",
                     "dest-filename": "greenery.zip",
                     "x-checker-data": {

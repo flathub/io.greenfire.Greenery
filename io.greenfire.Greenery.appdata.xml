@@ -22,7 +22,26 @@
     <category>Utility</category>
   </categories>
   <releases>
-    <release version="0.9.7" date="2024-02-25"/>
+    <release version="0.9.8" date="2024-04-01">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.8</url>
+      <description >
+          <ul>
+            <li>Support for the Terra Classic(LUNC) blockchain added to the dashboard</li>
+            <li>Added ERC20 tokens AAVE, AMP, AXS, COMP, CRV, MANA, NMR, PEPE, SALT, SAND, SHIB, and UNI</li>
+            <li>Show password feature now present when linking an email in settings</li>
+            <li>Address QR codes can now be scanned into the dashboard send form address field</li>
+          </ul>
+      </description>
+    </release>
+    <release version="0.9.7" date="2024-02-25">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.7</url>
+      <description >
+          <ul>
+            <li>Two-factor authentication setting added for web3 requests</li>
+            <li>Crypto can now be purchased using the Transak widget on the Quick Exchange page</li>
+          </ul>
+      </description>
+    </release>
   </releases>
   <update_contact>hello_at_greenfire.io</update_contact> 
   <content_rating type="oars-1.1"/>
