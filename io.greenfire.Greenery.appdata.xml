@@ -3,25 +3,53 @@
   <id>io.greenfire.Greenery</id>
   <name>Greenery</name>
   <developer_name>Greenfire</developer_name>
-  <summary>Cryptocurrency bookkeeping and accounting wallet</summary>
+  <summary>Crypto bookkeeping wallet</summary>
   <description>
     <p>
     The First Cryptocurrency Wallet with Bookkeeping and Accounting Functionality in mind for Avid traders, Small Business owners and Accountants
     </p>
   </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#62a0ea</color>
+    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+  </branding>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://greenfire.io/</url>
   <screenshots>
-    <screenshot type="default"><image>https://raw.githubusercontent.com/GreenfireInc/greenfireinc.github.io/main/portfolio-large.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/GreenfireInc/greenfireinc.github.io/main/calculator-large.png</image></screenshot>
-    <screenshot><image>https://raw.githubusercontent.com/GreenfireInc/greenfireinc.github.io/main/journal-large.png</image></screenshot>
+    <screenshot type="default">
+      <caption>Greenery Portfolio Page</caption>
+      <image>https://raw.githubusercontent.com/GreenfireInc/greenfireinc.github.io/main/portfolio-large.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Greenery Calculator Page</caption>
+      <image>https://raw.githubusercontent.com/GreenfireInc/greenfireinc.github.io/main/calculator-large.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Greenery Journal Page</caption>
+      <image>https://raw.githubusercontent.com/GreenfireInc/greenfireinc.github.io/main/journal-large.png</image>
+    </screenshot>
   </screenshots>
   <launchable type="desktop-id">io.greenfire.Greenery.desktop</launchable>
   <categories>
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="0.9.9" date="2024-06-26">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.9</url>
+      <description >
+          <ul>
+            <li>BTC, DOGE, and LTC fees are now displayed before sending crypto</li>
+            <li>Fiat value can now be used when sending crypto in the dashboard</li>
+            <li>Added CRO, FTM, GLM, GNO, GRT, MKR, QNT, RNDR, and TON ERC20 tokens</li>
+            <li>QR codes can now be scanned from the desktop for dashboard sending, importing wallets and contacts, and connecting to dApps</li>
+            <li>Added an indicator to dashboard to display the currently connected network for each blockchain</li>
+            <li>Wallet Connect requests now display warning messages for unknown domains, domain mismatches, and known security risks</li>
+            <li>Support for the Solana(SOL) blockchain added to the dashboard</li>
+            <li>Enabled support for connecting to Coinbase exchange for viewing balances</li>
+          </ul>
+      </description>
+    </release>
     <release version="0.9.8" date="2024-04-01">
     <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.8</url>
       <description >
