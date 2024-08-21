@@ -35,6 +35,24 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="0.9.10" date="2024-08-19">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.10</url>
+      <description >
+          <ul>
+            <li>Sender address and wallet balance are now displayed when sending currencies</li>
+            <li>Terms printed to the bottom of an invoice when exported</li>
+            <li>Window height adjusted to better suit smaller screens</li>
+            <li>Various verbiage adjustments made throughout the application</li>
+            <li>Updated displayed fields on the signup form</li>
+            <li>Dashboard updated for better viewing at smaller resolutions</li>
+            <li>Quota options have been changed to 25%, 50%, and 95%</li>
+            <li>Fixed invalid characters in dialogs when installed through Snapcraft</li>
+            <li>RNDR token has been updated to RENDER</li>
+            <li>History page filtering has been updated</li>
+            <li>Improved LUNC transaction fee estimation to prevent failed transactions.</li>
+          </ul>
+      </description>
+    </release>
     <release version="0.9.9" date="2024-06-26">
     <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.9</url>
       <description >
