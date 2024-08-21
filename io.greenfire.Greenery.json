@@ -49,8 +49,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.9/Greenery-linux-x64-0.9.9.zip",
-                    "sha256": "d12f8762d97650b724b0ed9713cf9ed091e188c0ddb6ac166e463b3144239338",
+                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.10/Greenery-linux-x64-0.9.10.zip",
+                    "sha256": "4daf178997843d36ab351aeda5bd62e2d3c5ba72955fe4d3179c0bb5dabb633e",
                     "dest": "main",
                     "dest-filename": "greenery.zip",
                     "x-checker-data": {
