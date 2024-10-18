@@ -16,7 +16,8 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--device=dri"
+        "--device=dri",
+        "--system-talk-name=org.freedesktop.DBus"
     ],
     "modules": [
         {
@@ -49,8 +50,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.10/Greenery-linux-x64-0.9.10.zip",
-                    "sha256": "4daf178997843d36ab351aeda5bd62e2d3c5ba72955fe4d3179c0bb5dabb633e",
+                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.11/Greenery-linux-x64-0.9.11.zip",
+                    "sha256": "424c47b067feb0183e9348a622f91b6befb5617623220107f6541dedac58da93",
                     "dest": "main",
                     "dest-filename": "greenery.zip",
                     "x-checker-data": {
