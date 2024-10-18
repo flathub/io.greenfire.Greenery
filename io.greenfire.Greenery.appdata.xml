@@ -35,6 +35,18 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="0.9.11" date="2024-10-16">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.11</url>
+      <description >
+          <ul>
+            <li>Exported data can now be saved using encrypted .genc files</li>
+            <li>Encrypt/Decrypt files using the Storage page</li>
+            <li>CSV exports are now properly formatted on Dashboard > History, History > Global/Journal, and Exchanges > Balance/History</li>
+            <li>PDF exports have been updated in Dashboard > History and History > Global/Journal</li>
+            <li>Tezos Domains resolution service updated for continued support</li>
+          </ul>
+      </description>
+    </release>
     <release version="0.9.10" date="2024-08-19">
     <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.10</url>
       <description >
