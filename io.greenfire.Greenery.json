@@ -16,8 +16,7 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--device=dri",
-        "--system-talk-name=org.freedesktop.DBus"
+        "--device=dri"
     ],
     "modules": [
         {
