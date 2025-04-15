@@ -1,9 +1,9 @@
 {
     "app-id": "io.greenfire.Greenery",
     "base": "org.electronjs.Electron2.BaseApp",
-    "base-version": "23.08",
+    "base-version": "24.08",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "greenery",
     "separate-locales": false,
@@ -16,12 +16,20 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--socket=pulseaudio",
-        "--device=dri"
+        "--device=dri",
+        "--filesystem=host"
     ],
     "modules": [
         {
             "name": "greenery",
             "buildsystem": "simple",
+            "build-options": {
+                "env": {
+                    "LANG": "en_US.UTF-8",
+                    "LC_ALL": "en_US.UTF-8",
+                    "TZ": "UTC"
+                }
+            },
             "build-commands": [
                 "install -Dm644 io.greenfire.Greenery.desktop /app/share/applications/io.greenfire.Greenery.desktop",
                 "install -Dm644 io.greenfire.Greenery.appdata.xml /app/share/appdata/io.greenfire.Greenery.appdata.xml",
@@ -49,15 +57,15 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.10/Greenery-linux-x64-0.9.10.zip",
-                    "sha256": "4daf178997843d36ab351aeda5bd62e2d3c5ba72955fe4d3179c0bb5dabb633e",
+                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.11/Greenery-linux-x64-0.9.11.tar.gz",
+                    "sha256": "e0f257160380d9d510dcf1cfc86a3f36570b3fb221a02830049d01e652021eef",
                     "dest": "main",
-                    "dest-filename": "greenery.zip",
+                    "dest-filename": "greenery.tar.gz",
                     "x-checker-data": {
                         "type": "html",
                         "url": "https://github.com/GreenfireInc/Releases.Greenery/releases",
                         "version-pattern": "https://github.com/GreenfireInc/Releases.Greenery/releases/hashes-Greenery.([\\d\\.-]+).txt",
-                        "url-template": "https://github.com/GreenfireInc/Releases.Greenery/releases/Greenery-linux-x64.$version.zip"
+                        "url-template": "https://github.com/GreenfireInc/Releases.Greenery/releases/Greenery-linux-x64.$version.tar.gz"
                     }
                 },
                 {
