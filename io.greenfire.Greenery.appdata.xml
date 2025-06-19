@@ -35,6 +35,32 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="0.9.12" date="2025-06-18">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.12</url>
+      <description>
+          <ul>
+            <li>Mnemonic phrase can now be printed from the settings menu</li>
+            <li>Users will now be able to opt-in to analytics and bug reporting upon signup</li>
+            <li>Mnemonic can now be pasted when signing up with an existing phrase</li>
+            <li>Invoices can now be exported from the history tab</li>
+            <li>Support for the Binance(BNB) blockchain added to the dashboard</li>
+            <li>Added Binance Tokens BUSD, DAI, LINK, UNI, USDC, and USDT</li>
+            <li>An issue with print dialogs has been fixed for Unix systems</li>
+            <li>Missing/misconfigured fonts on Snapcraft builds fixed</li>
+            <li>Dashboard crypto default view now respects the active currencies in settings</li>
+            <li>Fixed an issue with sending to coin ticker prefixed addresses</li>
+            <li>Transaction history fixes for ETH, LUNC, SOL, XTZ</li>
+            <li>Wallet selection dropdown now displays tooltips in case of text overflow</li>
+            <li>Wallet nicknames are now reflected after updating them from dashboard</li>
+            <li>Updated W9 form</li>
+            <li>Coins are now configured using UCID</li>
+            <li>Reset password interface has been updated</li>
+            <li>Improved accuracy of fee estimation for ETH transactions</li>
+            <li>Transaction history for tokens now display the blockchain symbol</li>
+            <li>Quick Exchange now offers a broader support of currencies</li>
+          </ul>
+      </description>
+    </release>
     <release version="0.9.11" date="2025-04-09">
     <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.11</url>
       <description >
