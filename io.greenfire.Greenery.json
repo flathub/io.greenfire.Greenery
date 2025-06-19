@@ -57,8 +57,8 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.11/Greenery-linux-x64-0.9.11.tar.gz",
-                    "sha256": "e0f257160380d9d510dcf1cfc86a3f36570b3fb221a02830049d01e652021eef",
+                    "url": "https://github.com/GreenfireInc/Releases.Greenery/releases/download/v0.9.12/Greenery-linux-x64-0.9.12.tar.gz",
+                    "sha256": "f1491415911c54b73b7a4073ac27e5f81949eb37e8b165aa640c65cf328d5414",
                     "dest": "main",
                     "dest-filename": "greenery.tar.gz",
                     "x-checker-data": {
