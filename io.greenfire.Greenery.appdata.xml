@@ -35,6 +35,35 @@
     <category>Utility</category>
   </categories>
   <releases>
+    <release version="1.0.0" date="2026-02-04">
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v1.0.0</url>
+      <description>
+          <ul>
+            <li>Signup using an email/password and a custom or generated 12 word mnemonic phrase</li>
+            <li>Create a GreeneryID to share with up to 8 wallet addresses attached</li>
+            <li>Easily import contacts/addresses using a shared GreeneryID</li>
+            <li>Keep track of your assets using an easy to read portfolio page</li>
+            <li>View indicies PoW, PoS, Coinbase (NY), Gemini (NY), and Storage</li>
+            <li>Generate up to 5 wallets at a time using your mnemonic phrase</li>
+            <li>Generate unlimited throwaway wallets</li>
+            <li>Store contacts with multiple addresses in your address book (Regular, Exchange, Wallet)</li>
+            <li>Send crypto using a public address, stored contact, or human readable domains (Unstoppable, ENS, Tezos Domains)</li>
+            <li>Link your Gemini and Coinbase accounts using API keys</li>
+            <li>View a comprehensive history of all your crypto transactions</li>
+            <li>Create and send invoices with your selected deposit address attached</li>
+            <li>Get conversion rates of different crypto/fiat currencies using the Greenery calculator</li>
+            <li>Easily swap your crypto for another using our quick exchange with expanded currency support</li>
+            <li>Purchase crypto using a credit card directly within Greenery via Transak</li>
+            <li>Generate paper wallets for personal storage</li>
+            <li>Connect with web3 applications using Wallet Connect (ETH) or Wallet Beacon (XTZ)</li>
+            <li>Quickly generate and share a W9 by completing your user profile</li>
+            <li>Set up two-factor authentication with an authenticator app</li>
+            <li>Enable or disable active cryptos in dashboard</li>
+            <li>Export and import contacts using drag and drop for CSV and VCF files</li>
+            <li>Bulk import, export, or delete address book contacts</li>
+          </ul>
+      </description>
+    </release>
     <release version="0.9.12" date="2025-06-18">
     <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.12</url>
       <description>
