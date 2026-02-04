@@ -36,84 +36,8 @@
   </categories>
   <releases>
     <release version="1.0.0" date="2026-02-04">
-    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v0.9.12</url>
+    <url type="details">https://github.com/GreenfireInc/Releases.Greenery/releases/tag/v1.0.0</url>
       <description>
-          <h1>Greenery 1.0.0 Release Notes</h1>
-          <p>Greenery 1.0.0 marks our first stable release! After extensive development and refinement, we're proud to present a comprehensive cryptocurrency wallet that has evolved significantly since our initial pre-release.</p>
-          <h2>Supported Blockchains</h2>
-          <p>Greenery now supports 8 major layer one blockchains:</p>
-          <ul>
-            <li>Binance Smart Chain (BNB)</li>
-            <li>Bitcoin (BTC)</li>
-            <li>Dogecoin (DOGE)</li>
-            <li>Ethereum (ETH)</li>
-            <li>Litecoin (LTC)</li>
-            <li>Solana (SOL)</li>
-            <li>Terra Classic (LUNC)</li>
-            <li>Tezos (XTZ)</li>
-            <li>XRP (XRPL)</li>
-          </ul>
-          <h2>Token Support</h2>
-          <p><strong>Ethereum (ERC20) Tokens:</strong> AAVE, AMP, AXS, BAT, COMP, CRO, CRV, DAI, EURC, FTM, GLM, GNO, GRT, GUSD, LINK, MANA, MKR, NMR, PEPE, POL (formerly MATIC), PYUSD, QNT, RENDER (formerly RNDR), SALT, SAND, SHIB, TON, TUSD, UNI, USDC, and USDT.</p>
-          <p><strong>Binance Smart Chain (BEP20) Tokens:</strong> BUSD, DAI, LINK, UNI, USDC, and USDT.</p>
-          <h2>What's New in 1.0.0</h2>
-          <h3>Enhanced Security And Authentication</h3>
-          <ul>
-            <li>Google OAuth support for email configuration, making it easier to set up secure email notifications</li>
-            <li>Improved sign-up form validation with clearer error messages and visual input highlighting</li>
-            <li>Two-factor authentication for web3 requests, providing additional security</li>
-          </ul>
-          <h3>New Blockchain Support</h3>
-          <ul>
-            <li>Added support for Binance Smart Chain (BNB), including native BNB and BEP20 tokens</li>
-            <li>Added Solana (SOL) integration with transaction support</li>
-            <li>Added support for the Terra Classic (LUNC) blockchain</li>
-            <li>Introduced support for XRP Ledger (XRP) blockchain</li>
-          </ul>
-
-          <h3>Exchange Integration</h3>
-          <ul>
-            <li>Connect your Coinbase exchange account to view balances directly within Greenery</li>
-            <li>Enhanced Gemini exchange integration</li>
-          </ul>
-
-          <h3>Improved User Experience</h3>
-          <ul>
-            <li>Transaction history refresh support on the Journal Entries page for real-time updates</li>
-            <li>A 100% quota option for Dashboard Sending, Quick Exchange, and Paper Wallet operations</li>
-            <li>Clear store button in the About section for easy data management</li>
-            <li>Increased Greenery ID image resolution for better sharing and scanning</li>
-            <li>Improved fee estimation across multiple blockchains for more accurate transaction costs</li>
-          </ul>
-
-          <h3>Enhanced Features</h3>
-          <ul>
-            <li>QR codes can be scanned from the desktop for dashboard sending, importing wallets and contacts, and connecting to dApps</li>
-            <li>Network indicators on the dashboard display the currently connected network for each blockchain</li>
-            <li>Wallet Connect requests now display warning messages for unknown domains, domain mismatches, and known security risks</li>
-            <li>Transaction history for tokens now displays the blockchain symbol for clarity</li>
-            <li>Sender address and wallet balance are now displayed when sending currencies</li>
-            <li>Fiat value can be used when sending crypto in the dashboard</li>
-            <li>Fee information is displayed before sending transactions</li>
-          </ul>
-
-          <h3>Data Management</h3>
-          <ul>
-            <li>Exported data can now be saved using encrypted .genc files</li>
-            <li>Encrypt/Decrypt files using the Storage page</li>
-            <li>Improved CSV and PDF export formatting across all history views</li>
-            <li>Invoices can be exported from the history tab</li>
-            <li>Terms printed to bottom of invoice when exported</li>
-          </ul>
-
-          <h3>User Control And Onboarding Enhancements</h3>
-          <ul>
-            <li>Mnemonic phrase can now be printed from the settings menu</li>
-            <li>Users can opt-in to analytics and bug reporting upon signup</li>
-            <li>Mnemonic can be pasted when signing up with an existing phrase</li>
-          </ul>
-
-          <h2>Key Features</h2>
           <ul>
             <li>Signup using an email/password and a custom or generated 12 word mnemonic phrase</li>
             <li>Create a GreeneryID to share with up to 8 wallet addresses attached</li>
