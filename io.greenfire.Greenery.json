@@ -62,10 +62,10 @@
                     "dest": "main",
                     "dest-filename": "greenery.tar.gz",
                     "x-checker-data": {
-                        "type": "html",
-                        "url": "https://github.com/GreenfireInc/Releases.Greenery/releases",
-                        "version-pattern": "https://github.com/GreenfireInc/Releases.Greenery/releases/hashes-Greenery.([\\d\\.-]+).txt",
-                        "url-template": "https://github.com/GreenfireInc/Releases.Greenery/releases/Greenery-linux-x64.$version.tar.gz"
+                        "type": "json",
+                        "url": "https://api.github.com/repos/GreenfireInc/Releases.Greenery/releases/latest",
+                        "version-query": ".tag_name | ltrimstr(\"v\")",
+                        "url-query": ".assets[] | select(.name == \"Greenery-linux-x64-\" + $version + \".tar.gz\") | .browser_download_url"
                     }
                 },
                 {
